@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="_js/main.js"></script>
+    </head>
+    <body onload="pagcarregada()">
+        <!-- DÁ PARA CRIAR JAVASCRIPT USANDO A TAG SCRIPT CONFORME ABAIXO, DENTRO DO BODY
+            <script>
+                alert("meu primeiro js");
+            </script>
+        -->
+        <button type="button" onclick="clicou()" >Clique aqui</button>
+        <!-- <h3 id="agradecimento" ></h3>  -->
+        <p id="agradecimento" onclick="redirecionar()"></p>
+        <p id="movemouse" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui...</p>
+        <p id="movemouse2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui...</p>
+
+        <select onchange="funcaoMudar(this)">
+            <option value="1">Primeira opção</option>
+            <option value="2">Segunda opção</option>
+            <option value="3">Terceira opção</option>
+        </select>
+    </body>
+</html>
